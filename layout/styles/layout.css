@@ -443,3 +443,18 @@ table a, #comments a{background-color:inherit;}
 	.font-x2{font-size:1.4rem;}
 	.font-x3{font-size:1.6rem;}
 }
+
+.txtarea{
+    padding: 10px;
+    font-size: 15px;
+    background-color: black;
+    margin-bottom:15px;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    width: 100%;       /* ancho reactivo al 100% del contenedor */
+    max-width: 100%;   /* para evitar que se salga del contenedor */
+    box-sizing: border-box; /* incluye padding y borde en el ancho */
+}

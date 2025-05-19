@@ -15,6 +15,8 @@ Licence URI: https://www.os-templates.com/template-terms
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
+
+
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -26,8 +28,8 @@ Licence URI: https://www.os-templates.com/template-terms
       <!-- ################################################################################################ -->
       <ul class="nospace">
         <li><a href="index.html"><i class="fa fa-lg fa-home"></i></a></li>
-        <li><a href="#" title="Llamanos"><i class="fa fa-phone"></i></a></li>
-        <li><a href="#" title="Email"><i class="fa fa-envelope-o"></i></a></li>
+        <li><a href="tel:+34094543634"  title="Teléfono"><i class="fa fa-phone"></i></a></li>
+        <li><a href="mailto:pedromasegosa@abogado.com" title="Correo electrónico"><i class="fa fa-envelope-o"></i></a></li>
       </ul>
       <!-- ################################################################################################ -->
     </div>
@@ -44,10 +46,14 @@ Licence URI: https://www.os-templates.com/template-terms
       <nav id="mainav" class="fl_right">
         <ul class="clear">
           <li class="active"><a href="index.html">Inicio</a></li>
-          <li><a href="#sobremi">Sobre mi</a></li>
+          <li><a href="#sobremi">Despacho</a></li>
           <li><a  href="#donde">Donde encontrarnos</a> </li>
-
-        </ul>
+          <li><a class="drop" href="#contacto">Contacto</a>
+            <ul>
+              <li><a href="tel:+34094543634"  title="Teléfono">Teléfono</a></li>
+              <li><a href="mailto:pedromasegosa@abogado.com">Email</a></li>
+            </ul>
+          </li>
       </nav>
       <!-- ################################################################################################ -->
     </header>
@@ -77,7 +83,8 @@ Licence URI: https://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
       <h6 class="heading">Abogado</h6>
-      <p>Don Pedro Masegosa Torregrosa</p>
+      <p>- Don Pedro Masegosa Torregrosa -</p>
+      <p>Tlf: 345645645  Email: asdfasdfs@gmail.com</p>
     </div>
     <article class="group">
       <div class="one_half first">
@@ -173,11 +180,11 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper">
+<div class="wrapper row3">
   <section class="hoc container clear" id="donde">
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h6 class="heading">Donde nos encontramos</h6>
+      <h6 class="heading">- Donde nos encontramos -</h6>
       <p>Calle perito de los palotes</p>
     </div>
 
@@ -204,11 +211,24 @@ Licence URI: https://www.os-templates.com/template-terms
       <h6 class="heading">Contactanos</h6>
       <p>Introduzca aquí sus datos de contacto</p>
     </div>
-    <form method="post" action="#">
+    <form action="php/enviar.php" method="post" action="#">
       <fieldset>
-        <legend>Newsletter:</legend>
-        <input class="btmspace-15" type="text" value="" placeholder="Enter Your Email Here&hellip;">
-        <button type="submit" value="submit">Submit</button>
+        <legend>Nombre:</legend>
+        <input class="btmspace-15" type="text" placeholder="Tu nombre&hellip;" required>
+
+        <legend>email:</legend>
+        <input class="btmspace-15" type="text"  placeholder="Tu email&hellip;" required>
+
+        <legend>asunto:</legend>
+        <input class="btmspace-15" type="text"  placeholder="Asunto&hellip;" required>
+
+        <legend>asunto:</legend>
+        <textarea class="txtarea" name="mensaje" placeholder="Tu mensaje&hellip;" rows="5" required></textarea>
+        <legend>mensaje:</legend>
+
+
+
+        <button type="submit" value="submit">Enviar</button>
       </fieldset>
     </form>
     <!-- ################################################################################################ -->
@@ -270,14 +290,7 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row5">
-  <div id="copyright" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
+
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
