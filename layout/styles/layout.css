@@ -54,6 +54,10 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 .container{padding:80px 0;}
 
+html {
+  scroll-behavior: smooth;
+}
+
 .centro{ display: flex;
            justify-content: center;  /* centra horizontalmente */
            align-items: center;
