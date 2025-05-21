@@ -3,3 +3,6 @@
 
   hamburguesa.addEventListener('click', ()=>{
   enlaces.classList.toggle('show')})
+
+  enlaces.addEventListener('click', ()=>{
+           enlaces.classList.toggle('show')})
