@@ -508,7 +508,7 @@ table a, #comments a{background-color:inherit;}
         }
     }
     #secondnav{
-        display: block;
+        display: none;
 
         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* sombra suave */
         padding: 20px;
@@ -519,7 +519,7 @@ table a, #comments a{background-color:inherit;}
     }
 
     #secondnav.show{
-        /*display: block;
+        display: block;
 
     }
 }
