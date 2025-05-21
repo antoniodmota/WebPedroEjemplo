@@ -458,3 +458,68 @@ table a, #comments a{background-color:inherit;}
     max-width: 100%;   /* para evitar que se salga del contenedor */
     box-sizing: border-box; /* incluye padding y borde en el ancho */
 }
+
+.hamburguer{
+    display:none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar{
+    width:25px;
+    height:3px;
+    background-color:white;
+    margin: 4px;
+    transition: 0.3s;
+}
+
+#secondnav{
+    display:none;
+
+}
+
+.mitext{
+    color:white;
+    font-family: "Gill Sans", sans-serif;
+    padding: 10px;
+}
+
+@media (max-width: 950px){
+    #mainav{
+        display:none;
+    }
+
+    .hamburguer{
+        display: flex;
+        position: absolute;
+        right: 0;
+        margin-right: 20px; /* puedes ajustar el valor */
+        margin-top: 10px;
+        @media (max-width: 750px){
+          position: absolute;
+          left: 45%;
+          right: 45%;
+          margin-bottom: 15px;
+          margin-top: 0px;
+          .bar{
+              width:150%;
+
+          }
+        }
+    }
+    #secondnav{
+        display: block;
+
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* sombra suave */
+        padding: 20px;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        text-color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    #secondnav.show{
+        /*display: block;
+
+    }
+}
